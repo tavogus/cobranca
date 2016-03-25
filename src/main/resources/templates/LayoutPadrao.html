@@ -3,6 +3,9 @@
     
 <head>
    <meta charset="UTF-8"/>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta name="viewport" content="width=device-width" />
+   
    <title>Cobrança</title>    
    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
@@ -13,7 +16,9 @@
    <header layout:include="Cabecalho"></header>
    
    
-   <section layout:fragment="conteudo"></section>
+   <section layout:fragment="conteudo">
+   		<p>Conteúdo principal</p>
+   </section>
    
    
    <script th:src="@{/js/jquery-2.2.2.min.js}"></script>

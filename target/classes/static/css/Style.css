@@ -1,16 +1,17 @@
-.navbar-brand {
-	padding-top: 12px;
+/*Tela grande*/
+
+@media (min-width: 768px) {
+	.panel-default {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.alert {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 }
 
-.panel-default {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.alert {
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
 .aw-link-panel {
 	float: right;
